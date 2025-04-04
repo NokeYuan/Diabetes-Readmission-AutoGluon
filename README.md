@@ -14,7 +14,7 @@ Hospital readmissions within 30 days are a major quality metric and financial bu
  
 The results consistently show that ensemble learning via AutoGluon outperforms other models, with LightGBM and CatBoost being strong individual contenders. Deep neural networks and transformer-based models (e.g., TabPFNMix) are competitive but underperform in this static tabular setting.
 
-📄 Click [here](MBP1413_Readmission_Predictions.pdf) to access the full paper.
+📄 Click [here](paper/AutoGluon_Readmission_Predictions.pdf) to access the full paper.
 
 ---
 
@@ -29,14 +29,21 @@ This project uses the publicly available dataset from the UCI Machine Learning R
 
 ```
 .
-├── Config.py            # Global configuration and constants
-├── Prep.py              # Data cleaning, preprocessing, clustering
-├── Train_model.py       # Training logic using AutoGluon
-├── Utils.py             # Utility functions
-├── Vis.py               # Visualizations (e.g., SHAP, performance plots)
-├── train.ipynb          # Interactive notebook for training and evaluation
-├── ag.yaml              # Conda environment file
-├── README.md            # This file
+├── src/                    # Source code modules
+│   ├── Config.py           # Global configuration and constants
+│   ├── Prep.py             # Data cleaning, preprocessing, clustering
+│   ├── Train_model.py      # Training logic using AutoGluon
+│   ├── Utils.py            # Utility functions
+│   └── Vis.py              # Visualizations (e.g., SHAP, performance plots)
+│
+├── notebooks/              # Jupyter notebooks
+│   └── train.ipynb         # Training and evaluation
+│
+├── paper/                  # Research paper and supplementary material
+│   └── AutoGluon_Readmission_Predictions.pdf
+│
+├── ag.yaml                 # Conda environment file
+├── README.md               # This file
 ```
 
 ---

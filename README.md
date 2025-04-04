@@ -78,7 +78,7 @@ You can run the full workflow interactively inside the Jupyter notebook:
 
 3. **Visualize results**:
    ```python
-   from Vis import plot_feature_importance, shap_summary_plot, ...
+   from src.Vis import plot_feature_importance, shap_summary_plot, ...
    ```
 
 This approach allows for step-by-step inspection, debugging, and comparison.

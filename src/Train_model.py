@@ -29,7 +29,7 @@ class TrainAutoGluon:
     """
 
     def __init__(self, processed_data, test_size=0.2, random_state=42, corr_threshold=0.9,
-                 var_threshold=0, max_clusters=10):
+                 var_threshold=0.1, max_clusters=10):
         """
         Initialize with preprocessed data, perform data splitting, and store necessary attributes.
 

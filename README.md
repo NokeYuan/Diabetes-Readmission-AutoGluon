@@ -71,7 +71,7 @@ You can run the full workflow interactively inside the Jupyter notebook:
 2. **Run the full pipeline**:
    ```python
    # Inside train.ipynb
-   from Train_model import TrainAutoGluon
+   from src.Train_model import TrainAutoGluon
    trainer = TrainAutoGluon(...)
    trainer.run_pipeline()
    ```

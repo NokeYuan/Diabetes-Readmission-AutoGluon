@@ -1,6 +1,11 @@
 # 🎯 Predicting 30-Day Readmissions in Diabetic Patients Using Ensemble Learning with AutoGluon
 
-This repository presents an end-to-end pipeline for predicting 30-day hospital readmissions among diabetic patients using modern AutoML techniques. The study leverages [AutoGluon](https://github.com/autogluon/autogluon), a state-of-the-art ensemble-based AutoML framework, and evaluates it against traditional machine learning, deep learning, and transformer-based tabular models. The results highlight the performance advantages and clinical interpretability of ensemble learning in healthcare applications.
+This repository presents an end-to-end pipeline for predicting 30-day hospital readmissions among diabetic patients using modern AutoML techniques. The study leverages [AutoGluon](https://github.com/autogluon/autogluon), a state-of-the-art ensemble-based AutoML framework, and evaluates it against traditional machine learning, deep learning, and transformer-based tabular models. 
+
+This study contributes by validating the
+AutoGluon ensemble model for 30-day readmission prediction in diabetic patients,
+benchmarking it against diverse models, and highlighting risk factors to support
+early intervention.
 
 ---
 
@@ -14,7 +19,7 @@ Hospital readmissions within 30 days are a major quality metric and financial bu
  
 The results consistently show that ensemble learning via AutoGluon outperforms other models, with LightGBM and CatBoost being strong individual contenders. Deep neural networks and transformer-based models (e.g., TabPFNMix) are competitive but underperform in this static tabular setting.
 
-📄 Click [here](paper/AutoGluon_Readmission_Predictions.pdf) to access the full paper.
+📄 For more details, please access the [full paper](paper/AutoGluon_Readmission_Predictions.pdf) and the [presentation slides](paper/Presentation_Slides.pdf).
 
 ---
 
